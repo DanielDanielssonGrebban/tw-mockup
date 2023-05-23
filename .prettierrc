@@ -1,0 +1,28 @@
+{
+    "printWidth": 100,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "quoteProps": "preserve",
+    "importOrder": [
+        "^react",
+        "^libs/styletron",
+        "^format-message",
+        "^prop-types",
+        "^(libs)",
+        "^(utils)",
+        "^(hooks)",
+        "^(config)",
+        "^(contexts)",
+        "^(queries)",
+        "<THIRD_PARTY_MODULES>",
+        "^[./]"
+    ],
+    "importOrderSeparation": false,
+    "importOrderSortSpecifiers": true
+}
