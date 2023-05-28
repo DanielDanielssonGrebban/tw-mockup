@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import { clsxm } from '../utils/tailwind';
 
 interface DiscoverProps {
@@ -46,6 +47,17 @@ const Discover = ({
         md: ['Primary/40_-2', null, null, 'Primary/64_-3', null, 'Primary/96_-4'],
     };
 
+    const [theme, setTheme] = useState('default');
+
+    const toggleTheme = () => {
+        if (theme === 'default') {
+            setTheme('xmas');
+        } else {
+            setTheme('default');
+        }
+        console.log('Theme set to:', theme);
+    };
+
     return (
         <div
             className={clsxm(
@@ -59,9 +71,17 @@ const Discover = ({
                 <p className=" mb-6">Senectus fermentum ligula</p>
                 <h2 className=" mb-4 text-7xl ">Tailwind Mockup</h2>
                 <p className=" mb-8 text-lg ">{text}</p>
-                <button className="cursor-pointer border p-3 hover:bg-header-1">
-                    Conubia ligula
-                </button>
+                <div className="flex flex-col gap-3">
+                    <button className="cursor-pointer border p-3 hover:bg-header-1">
+                        Conubia ligula
+                    </button>
+                    <button
+                        className="cursor-pointer border p-3 hover:bg-header-1"
+                        onClick={() => toggleTheme()}
+                    >
+                        Swap theme
+                    </button>
+                </div>
             </div>
         </div>
     );

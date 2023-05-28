@@ -1,4 +1,5 @@
 import themes from './src/app/config/branding/themes';
+import type { Config } from 'tailwindcss';
 
 module.exports = {
     content: [
@@ -20,8 +21,8 @@ module.exports = {
             'desktop.lg': '1920px',
         },
         extend: {
-            ...themes.default.statics,
+            ...themes.xmas.statics,
         },
     },
     plugins: [],
-};
+} satisfies Config;

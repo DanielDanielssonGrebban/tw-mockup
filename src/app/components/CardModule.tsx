@@ -16,25 +16,25 @@ const Module = ({ style }: ModuleProps) => {
                     'tablet.lg:[&>*:nth-child(odd)]:bg-module-card-2'
                 )}
             >
-                <div className="bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2 aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl ">
+                <div className="aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2 ">
                     <h2 className="p-4 text-lg tablet.sm:text-2xl">Lorem ipsum dolor sit</h2>
                     <p className="p-4">
                         Lorem ipsum dolor sit amet, mauris etiam pellentesque aliquam nostra
                     </p>
                 </div>
-                <div className="bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2 aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl">
+                <div className="aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2">
                     <h2 className="p-4 text-lg tablet.sm:text-2xl">Lorem ipsum dolor sit</h2>
                     <p className="p-4">
                         Lorem ipsum dolor sit amet, mauris etiam pellentesque aliquam nostra
                     </p>
                 </div>
-                <div className="bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2 aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl">
+                <div className="aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2">
                     <h2 className="p-4 text-lg tablet.sm:text-2xl">Lorem ipsum dolor sit</h2>
                     <p className="p-4">
                         Lorem ipsum dolor sit amet, mauris etiam pellentesque aliquam nostra
                     </p>
                 </div>
-                <div className="bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2 aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl">
+                <div className="aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl bg-module-card-1 text-module-card-1 tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2">
                     <h2 className="p-4 text-lg tablet.sm:text-2xl">Lorem ipsum dolor sit</h2>
                     <p className="p-4">
                         Lorem ipsum dolor sit amet, mauris etiam pellentesque aliquam nostra
@@ -44,7 +44,7 @@ const Module = ({ style }: ModuleProps) => {
                     className={clsxm(
                         'aspect-[2/3] h-full w-full min-w-[190px] rounded-2xl',
                         'bg-module-card-1 text-module-card-1',
-                        'tablet.sm:text-module-card-2 tablet.sm:bg-module-card-1'
+                        'tablet.sm:bg-module-card-1 tablet.sm:text-module-card-2'
                     )}
                 >
                     <h2 className="p-4 text-lg tablet.sm:text-2xl">Lorem ipsum dolor sit</h2>
