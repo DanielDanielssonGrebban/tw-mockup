@@ -7,6 +7,7 @@ interface ModuleProps {
 }
 
 const Module = ({ style }: ModuleProps) => {
+    console.log('Commit 2');
     return (
         <div className={clsxm('block w-full items-center justify-center ', style)}>
             <div

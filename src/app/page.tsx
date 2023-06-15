@@ -19,6 +19,8 @@ export default function Home() {
         textColor = 'beige',
     } = discoverContent;
 
+    console.log('Commit 1');
+
     return (
         <main className="flex h-full flex-col items-center ">
             <Header />
