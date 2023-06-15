@@ -37,6 +37,7 @@ const Discover = ({
     textColor = 'white',
     wrapperLink,
 }: DiscoverProps) => {
+    console.log('commit 4');
     const tagFontKeys = {
         sm: ['Secondary/16_100_-2', null, null, 'Secondary/20_100_-2', null, 'Secondary/28_100_-3'],
         md: ['Secondary/20_100_-2', null, null, 'Secondary/32_100_-3', null, 'Secondary/40_100_-3'],
